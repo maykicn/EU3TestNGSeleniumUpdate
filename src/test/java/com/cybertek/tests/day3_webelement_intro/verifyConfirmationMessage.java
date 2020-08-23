@@ -56,7 +56,6 @@ public class verifyConfirmationMessage {
         WebElement actualConfirmationMessage = driver.findElement(By.name("confirmation_message"));
 
         System.out.println(actualConfirmationMessage.getText());
-
         //save expected message
         String expectedMessage = "Your e-mail's been sent!";
         //save actual message to variable
