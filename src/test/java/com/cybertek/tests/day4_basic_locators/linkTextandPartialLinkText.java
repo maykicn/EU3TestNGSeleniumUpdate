@@ -13,7 +13,6 @@ public class linkTextandPartialLinkText {
         driver.get("http://practice.cybertekschool.com/dynamic_loading");
 
         WebElement link1 = driver.findElement(By.linkText("Example 1: Element on page that is hidden and become visible after trigger"));
-
        // link1.click();
 
         WebElement link4 = driver.findElement(By.partialLinkText("Example 4 "));
