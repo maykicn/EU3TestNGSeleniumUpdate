@@ -40,7 +40,7 @@ public class PopupsAndAlerts {
         driver.get("http://practice.cybertekschool.com/javascript_alerts");
 
         //click Click For JS Alert Button
-        driver.findElement(By.xpath("//button[1]")).click();
+       // driver.findElement(By.xpath("//button[1]")).click();
 
         //switch to JS alert pop up
         Alert alert = driver.switchTo().alert();
@@ -58,7 +58,7 @@ public class PopupsAndAlerts {
         alert.sendKeys("MikeSmith");
         //click OK
         alert.accept();
-
-
     }
+
+
 }
