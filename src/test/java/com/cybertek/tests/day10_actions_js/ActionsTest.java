@@ -94,7 +94,6 @@ public class ActionsTest {
         Thread.sleep(2000);
         actions.moveToElement(source).clickAndHold().moveToElement(target).pause(2000).release().perform();
 
-
     }
 
 }
