@@ -12,7 +12,7 @@ public class nameLocatorTest {
         //make browser fullscreen
         driver.manage().window().maximize();
 
-        driver.get("http://practice.cybertekschool.com/sign_up");
+        driver.get("http://practice2.cybertekschool.com/sign_up");
 
         WebElement fullNameInput = driver.findElement(By.name("full_name"));
         fullNameInput.sendKeys("Mike Smith");
@@ -32,8 +32,6 @@ public class nameLocatorTest {
 
         //lazy way
         driver.findElement(By.name("wooden_spoon")).click();
-
-
 
     }
 
