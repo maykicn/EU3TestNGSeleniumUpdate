@@ -15,7 +15,8 @@ public class DDFWithDataProvider {
                 {"Friends","7"},
                 {"Westworld","10"},
                 {"Gotham","9"},
-                {"Dark","8"}
+                {"Dark","8"},
+                {"Titans","6"}
         };
         return data;
     }

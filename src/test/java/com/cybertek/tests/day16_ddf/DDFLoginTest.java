@@ -13,7 +13,7 @@ public class DDFLoginTest extends TestBase {
     @DataProvider
     public Object [][] userData(){
 
-        ExcelUtil qa3short = new ExcelUtil("src/test/resources/Vytracktestdata.xlsx","QA3-short");
+        ExcelUtil qa3short = new ExcelUtil("src/test/resources/Vytracktestdata.xlsx","QA3-all");
 
         String [][] dataArray =qa3short.getDataArrayWithoutFirstRow();
 

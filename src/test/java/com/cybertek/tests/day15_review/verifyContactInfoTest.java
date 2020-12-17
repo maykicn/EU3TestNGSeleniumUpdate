@@ -3,6 +3,7 @@ package com.cybertek.tests.day15_review;
 import com.cybertek.pages.*;
 import com.cybertek.tests.TestBase;
 import com.cybertek.utilities.ConfigurationReader;
+import com.cybertek.utilities.ExcelUtil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -21,6 +22,7 @@ public class verifyContactInfoTest extends TestBase {
      */
     @Test
     public void contactDetailsTest(){
+
         extentLogger = report.createTest("Contact Info Verification");
 
         LoginPage loginPage = new LoginPage();
