@@ -24,6 +24,7 @@ public class DDFLoginTest extends TestBase {
     public void test1(String username,String password,String firstName,String lastName){
         extentLogger=report.createTest("Test "+firstName+" "+lastName);
         LoginPage loginPage = new LoginPage();
+        System.out.println("username = " + username);
 
         loginPage.login(username,password);
 

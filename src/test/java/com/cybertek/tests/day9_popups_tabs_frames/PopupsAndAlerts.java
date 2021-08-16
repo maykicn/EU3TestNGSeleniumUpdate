@@ -58,6 +58,7 @@ public class PopupsAndAlerts {
         alert.sendKeys("MikeSmith");
         //click OK
         alert.accept();
+        System.out.println("\"   \" = " + "   ");
     }
 
 
