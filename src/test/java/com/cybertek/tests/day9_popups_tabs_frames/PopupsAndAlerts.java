@@ -59,6 +59,7 @@ public class PopupsAndAlerts {
         //click OK
         alert.accept();
         System.out.println("\"   \" = " + "   ");
+        System.out.println("\"   \" = " + "   ");
     }
 
 
